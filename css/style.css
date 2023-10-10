@@ -1,0 +1,41 @@
+/*change the streamlit*/
+#mainmenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+[data-testid="stSidebarNav"]::before {
+    content: "Jiek Ruan";
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 50px;
+    position: relative;
+    top: 100px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font: 1.6rem 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: var(--color-white);
+    font-weight: 500;
+}

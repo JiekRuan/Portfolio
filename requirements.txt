@@ -1,0 +1,5 @@
+numpy==1.24.3
+streamlit==1.22.0
+pandas==2.0.1
+altair==4.2.2
+streamlit-extras==0.3.2
