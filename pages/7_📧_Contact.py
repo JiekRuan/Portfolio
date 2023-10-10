@@ -17,41 +17,6 @@ st.header("Contact me")
 
 st.write("Contactez moi sur mon mail jiekruan@gmail.com")
 
-# user_email = st.text_input("Votre adresse e-mail")
-# subject = st.text_input("Sujet du message")
-# message = st.text_area("Message")
-
-# def send_email(user_email, subject, message):
-#     smtp_server = "smtp.gmail.com"
-#     smtp_port = 587
-#     smtp_username = "votre_adresse@gmail.com"
-#     smtp_password = "votre_mot_de_passe"
-
-#     msg = EmailMessage()
-#     msg["From"] = user_email
-#     msg["To"] = "jiekruan@gmail.com"
-#     msg["Subject"] = subject
-#     msg.set_content(message)
-
-#     try:
-#         server = smtplib.SMTP(smtp_server, smtp_port)
-#         server.starttls()
-#         server.login(smtp_username, smtp_password)
-
-#         server.send_message(msg)
-
-#         st.success("Votre e-mail a été envoyé avec succès!")
-#     except Exception as e:
-#         st.error(f"Une erreur s'est produite lors de l'envoi de l'e-mail : {e}")
-#     finally:
-#         server.quit()
-
-# if st.button("Envoyer"):
-#     if user_email and subject and message:
-#         send_email(user_email, subject, message)
-#     else:
-#         st.warning("Veuillez remplir tous les champs du formulaire.")
-
 st.write("Vous pouvez également vous connectez avec sur moi différent réseaux :")
 
 with st.container():
