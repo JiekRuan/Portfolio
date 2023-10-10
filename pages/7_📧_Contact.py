@@ -16,14 +16,14 @@ st.title("Jiek Ruan")
 st.header("Contact me")
 
 st.write("Contactez moi sur mon mail jiekruan@gmail.com")
-st.write("Vous pouvez également vous connectez avec sur moi différent réseaux :")
+# st.write("Vous pouvez également vous connectez avec sur moi différent réseaux :")
 
-with st.container():
-    left, right = st.columns((1,6))
-    with left:
-        st.image("./images/Linkedin.png")
-    with right:
-        st.image("./images/Github.png")
+# with st.container():
+#     left, right = st.columns((1,6))
+#     with left:
+#         st.image("./images/Linkedin.png")
+#     with right:
+#         st.image("./images/Github.png")
 
 copyright_footer = """<p>Personnal portfolio for Jiek Ruan &copy 2023</p>"""
 st.markdown(copyright_footer, unsafe_allow_html=True)
